@@ -22,7 +22,7 @@ class CalculatorApplicationTests {
 
         // then
         //assertEquals(result.getResult(), 5);
-        assertEquals(result.getResult(), -8);
+        assertEquals(result.getResult(), -6);
 
 	}
 

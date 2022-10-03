@@ -14,7 +14,7 @@ public class AddService {
 	private AddRepository addRepository;
 	
     public Result add(int a, int b) {
-        int sum = a - b;
+        int sum = a - b+2;
         Result result= new Result(sum);
         return addRepository.save(result);
         //return new Result(sum);
